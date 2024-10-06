@@ -28,3 +28,24 @@ entre el sistema y el gestor de datos. Utiliza los comentarios para documentar
 
 3. Construye el código necesario para examinar las operaciones básicas que facilite el registro
 y control de asistencia de los empleados y para la generación de informes de asistencia.
+
+
+
+# Creacion de la bd en MYSQL
+
+1.- Instalar MySQL Server y/o Workbench
+
+2.- Abrir Terminal de Windows
+
+3.- Entrar al directorio config de tu proyecto 
+
+    cd /directorio/de/tu/Proyecto/config
+
+3.- Ingresar a MySQL y subir script
+    
+  a. Ingresa a Mysql con
+        
+        mysql -u root -p < script_user_tablas.sql
+    
+  b. Ingresa tu password del user root que usaste al instalar MySQL
+    
